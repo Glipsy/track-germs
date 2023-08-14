@@ -1,6 +1,6 @@
 use master
 go
-drop database if esists TrackGermDB
+drop database if exists TrackGermDB
 go
 create database TrackGermDB
 go
