@@ -3,7 +3,7 @@ go
 delete Germ
 go
 insert Germ (GermName, Host)
-union union select 'Norovirus', 'human'
+select 'Norovirus', 'human'
 union select 'Salmonella', 'plant'
 union select 'Clostridium perfringens', 'human'
 union select 'Campylobacter', 'animal'
